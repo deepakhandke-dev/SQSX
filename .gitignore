@@ -1,0 +1,60 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build and binary files
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Ignore dependency & package-related files
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+global.json
+!nuget.config
+!packages.config
+
+# Ignore NuGet restore artifacts
+.nuget/
+project.assets.json
+
+# Ignore Rider/JetBrains IDE files
+.idea/
+*.sln.iml
+
+# Ignore test & coverage reports
+TestResults/
+coverage/
+*.coverage
+*.coverlet
+*.opencover.xml
+
+# Ignore Docker-related files
+docker-compose.override.yml
+**/Dockerfile
+**/docker-compose.*
+
+# Ignore environment-specific config
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.sublime-project
+*.sublime-workspace
+Thumbs.db

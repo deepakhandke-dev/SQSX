@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SQSX</id>
+    <version>1.0.0</version> 
+    <authors>Deepak Handke</authors>
+    <owners>Deepak Handke</owners>
+    <description>A reusable .NET library for seamless integration with AWS SQS, enabling both message production and consumption. Supports single and batch processing for efficient message handling. Ideal for building scalable, robust services that interact with SQS queues, with support for both FIFO and standard queues.</description>
+
+    <!-- NuGet Best Practices -->
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/deepakhandke-dev/SQSX.git</projectUrl>
+    <repository type="git" url="https://github.com/deepakhandke-dev/SQSX.git" />
+    
+    <tags>sqs aws messaging producer consumer fifo dotnet library</tags>
+
+    <!-- Dependencies -->
+    <dependencies>
+      <dependency id="AWSSDK.SQS" version="3.7.1.12" />
+      <dependency id="Microsoft.Extensions.Hosting" version="8.0.0" />
+      <dependency id="Microsoft.Extensions.DependencyInjection" version="8.0.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\net8.0\*.dll" target="lib\net8.0" />
+  </files>
+</package>

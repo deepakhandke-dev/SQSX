@@ -77,15 +77,6 @@ public class OrderProcessor
 ✅ **Extensible & Scalable** due to SOLID principles.
 ✅ **Reduces Boilerplate Code** for SQS integration.
 
-## Publishing to NuGet
-1. Build the package:
-   ```sh
-   dotnet pack --configuration Release
-   ```
-2. Publish to NuGet:
-   ```sh
-   dotnet nuget push bin/Release/SQSX.1.0.0.nupkg --api-key YOUR_NUGET_API_KEY --source https://api.nuget.org/v3/index.json
-   ```
 
 ## Contributing
 Pull requests are welcome! Ensure your changes adhere to best practices and include tests.
